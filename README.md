@@ -1,5 +1,7 @@
 # AI4Edu Diagram Eval
 
+[中文](README.md) | [English](README.en.md)
+
 这是 2026 年 9 月 25 日图转 TikZ 工作流 v2 的单图移植版。入口是事先生成并尝试渲染的 8B 草稿。
 
 | 草稿渲染结果 | 路线 | 处理 |
@@ -32,3 +34,7 @@ python -m unittest -v
 | `stem`, `detail`, `fallback` | 可选题干、图像 detail（`auto` 或 `high`）及回退 TikZ |
 
 `Outcome` 返回路线、每次尝试的拒绝原因、采用来源和最终 TikZ。模型调用、8B 推理、渲染和批量运行由调用方接入。渲染器可使用 PDF 提取工具提供标签文本，提取失败时传 `None`。离线用例使用合成数据和模拟适配器。
+
+## 合作者说明（待维护者审核）
+
+拟标注 `qlmeng2023` 为第二合作者；此说明请由维护者核实，不表示其原创本项目技术成果。

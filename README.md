@@ -1,5 +1,7 @@
 # AI4Edu Diagram Eval
 
+[中文](README.md) | [English](README.en.md)
+
 这是 2026 年 9 月 25 日图转 TikZ 工作流 v2 的单图移植版。入口是事先生成并尝试渲染的 8B 草稿。
 
 | 草稿渲染结果 | 路线 | 处理 |

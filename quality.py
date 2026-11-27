@@ -6,6 +6,7 @@ from typing import Any
 
 from PIL import Image, ImageStat
 
+
 def mask_tex_comments(source: str) -> str:
     """Replace unescaped TeX comments with spaces while preserving source offsets."""
     characters = list(source)

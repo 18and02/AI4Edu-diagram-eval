@@ -46,7 +46,7 @@ class WorkflowTests(unittest.TestCase):
             with self.subTest(status=status):
                 requests = []
 
-                def revise(request):
+                def revise(request, requests=requests):
                     requests.append(request)
                     return r"\coordinate (A) at (0,0);" if len(requests) == 1 else r"\draw (0,0)--(1,1);"
 

@@ -35,4 +35,4 @@ For integration, import `workflow.run` and provide the following arguments:
 
 ## Attribution
 
-Proposed project documentation attribution: `qlmeng2023` — second collaborator. This attribution is submitted for maintainer review and does not claim original technical authorship.
+qlmeng2023 — collaborator
